@@ -131,7 +131,7 @@
               </div>
 		</div>
 		
-		<h1 class="et-hero et-slide-contribute"><a class="btn" href="#">Contribute To Tale &raquo;</a></h1>
+		<h1 class="et-hero et-slide-contribute"><a class="btn" href="#contribute-text-delete">Contribute To Tale &raquo;</a></h1>
 		
 		</div> <!-- et-carousel-container div  -->
       <!-- Example row of columns -->
@@ -167,24 +167,95 @@
 	       
 	      </div> <!-- row of columns -->
 	      <hr>
-	       <h1 class="et-hero"><a class="btn" href="#">Create A New Tale &raquo;</a></h1>
+	       <h1 class="et-hero"><a class="btn" href="#create-new-tale">Create A New Tale &raquo;</a></h1>
+	</div>
+     
+      
+	<div class="et-individual-content-box">
+	   	
+		<a id="how-to-play"></a>
+	      <div class="featurette">
+	        <img class="featurette-image pull-right" src="img/sketch1.jpg" alt="Picture of Sales Assistant helping two customers in Electronics store." />
+	        <h2 class="featurette-heading">How to Play Exquisite Tale <span class="et-muted"> What Is The Next Storyline? </span></h2>
+	        <p class="lead">
+	        	 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.        		         	
+	        </p>
+		
+	        <p class="pull-right"><a href="#Top">Back to top</a></p>
+	      </div>
 	</div>
       
-<div class="individual-content-box">
-   	<hr class="featurette-divider">
-	<a id="how-to-play"></a>
-      <div class="featurette">
-        <img class="featurette-image pull-right" src="img/sketch1.jpg" alt="Picture of Sales Assistant helping two customers in Electronics store." />
-        <h2 class="featurette-heading">How to Play Exquisite Tale <span class="et-muted"> What Is The Next Storyline? </span></h2>
-        <p class="lead">
-        	 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.        		         	
-        </p>
-	
-        <p class="pull-right"><a href="#Top">Back to top</a></p>
+      <hr>
+      <a id="contribute-text-delete"></a>
+      <div class="et-individual-content-box" id="et-contribution-text">
+      	<h2 class="featurette-heading">Contribute Text
+	  			<span class="et-muted"> Based on this image, say what happens next in the text box provided.</span>
+	  	</h2>
+      	<form role="form">
+	  		
+			<div class="form-group">
+				<div id="et-image-previous">
+					
+			    	<img src="img/frame4.jpg" alt="">
+			    	
+			    </div>
+			    <div id="et-text-contribution-box">
+			    	<textarea id="text_contribution" name="text_contribution" class="form-control" rows="10" ></textarea>
+			    </div>
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
       </div>
-</div>
+      
+      <hr>
+      <div class="et-individual-content-box" id="et-contribution-image">
+      	<h2 class="featurette-heading">Contribute Image
+      			<span class="et-muted"> Draw or Upload a Picture Based on The Following Text</span>
+      	</h2>
+      	<form role="form">
+      		
+      		
+			  <div class="form-group">
+			    <div id="et-text-previous">
+			    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			    </div>
+			    <div id="et-image-contribution-box">
+			    	<h3>Embed the drawing program here! div id="et-image-contribution-box </h3>
+			    </div>
+			    <div class="form-group pull-left">
+			      <label for="inputfile">Insert Image</label>
+			      <input type="file" id="inputfile">
+			    </div>
+	   
+			  </div>
+		   <button type="submit" class="btn btn-default pull-right">Submit</button>
+		</form>
+      </div>
+      
       <hr>
       
+      <a id="create-new-tale"></a>
+      <div class="et-individual-content-box" id="et-create-new">
+      	<h2 class="featurette-heading">Create A New Tale
+	  			<span class="et-muted"> Be forewarned. What you are about to write will be distorted and mutated by people after you. </span>
+	  		</h2>
+      	<form class="form-horizontal" role="form">
+		   <div class="form-group">
+		      
+		      <div class="col-sm-10">
+		         <input type="text" class="form-control" id="title" 
+		            placeholder="Enter title">
+		      </div>
+		   </div>
+		   <div class="form-group"> 
+		   	<textarea id="text_contribution" name="text_contribution" class="form-control" rows="10" placeholder="Enter initial storyline"></textarea>
+		 	</div>
+		   <button type="submit" class="btn btn-default pull-left">Submit</button>
+		</form>
+
+      </div>
+      
+      <hr>
       <footer>
         <p>Copyright &copy; 2014 by ExquisiteTale.com </p>
       </footer>

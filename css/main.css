@@ -221,7 +221,7 @@ textarea {
 	font-size:medium;
 }
 
-.individual-content-box {
+.et-individual-content-box {
 	margin-top:150px;
 	margin-bottom:150px;
 }
@@ -270,7 +270,24 @@ textarea {
 	padding-bottom: 10px;
 }
 
-/* ==========================================================================
+#et-text-previous {
+	padding:30px;
+	height:auto;
+	
+}
+
+#et-text-contribution-box {
+	
+}
+
+#et-image-contribution-box {
+	border:1px dashed gray;
+	height:500px; 
+	width:100%;
+	
+}
+/* =========
+ */=================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
