@@ -219,16 +219,28 @@
 			    <div id="et-text-previous">
 			    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 			    </div>
+			    
 			    <div id="et-image-contribution-box">
-			    	<h3>Embed the drawing program here! div id="et-image-contribution-box </h3>
+			    	<div class="tools">
+				    	<a href="#myCanvas" data-tool="marker">Marker</a>
+					  	<a href="#myCanvas" data-download="png" style="float: right; width: 100px;">Download</a>
+					  	<a href="#myCanvas" data-color="#f00" style="width: 10px; background: #f00;"></a> <a href="#myCanvas" data-color="#ff0" style="width: 10px; background: #ff0;"></a> <a href="#myCanvas" data-color="#0f0" style="width: 10px; background: #0f0;"></a> <a href="#myCanvas" data-color="#0ff" style="width: 10px; background: #0ff;"></a> <a href="#myCanvas" data-color="#00f" style="width: 10px; background: #00f;"></a> <a href="#myCanvas" data-color="#f0f" style="width: 10px; background: #f0f;"></a> <a href="#myCanvas" data-color="#000" style="width: 10px; background: #000;"></a> <a href="#myCanvas" data-color="#fff" style="width: 10px; background: #fff;"></a> <a href="#myCanvas" data-size="3" style="background: #ccc">3</a> <a href="#myCanvas" data-size="5" style="background: #ccc">5</a> <a href="#myCanvas" data-size="10" style="background: #ccc">10</a> <a href="#myCanvas" data-size="15" style="background: #ccc">15</a>				  
+	  				  	<a href="#myCanvas" data-tool="eraser">Eraser</a>
+					</div>
+			    	<canvas id="myCanvas" width="800" height="400" style="border:1px solid #000000;">
+					Your browser does not support the HTML5 canvas tag.
+					</canvas>
+			    
+				    <div class="form-group pull-left">
+				      <label for="inputfile">Insert Image</label>
+				      <input type="file" id="inputfile">
+				    </div>
+				    <button type="submit" class="btn btn-default pull-right">Submit</button>
 			    </div>
-			    <div class="form-group pull-left">
-			      <label for="inputfile">Insert Image</label>
-			      <input type="file" id="inputfile">
-			    </div>
+			    
 	   
 			  </div>
-		   <button type="submit" class="btn btn-default pull-right">Submit</button>
+		   
 		</form>
       </div>
       
@@ -278,6 +290,7 @@
     <script src="js/bootstrap-collapse.js"></script>
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
-
+	<script src="js/draw.js"></script>
+	<script src="js/sketch.js"></script>
   </body>
 </html>
