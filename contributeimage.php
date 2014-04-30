@@ -32,10 +32,10 @@ echo "</script>";
 			</canvas>
 			    
       	</div>
-      	
+      	 <div class="et-upload-file">
       	<form role="form" action="upload_file.php" method="post" enctype="multipart/form-data" >
 			  <div class="form-group">
-			    <div id="et-image-contribution-box">
+			   
 			    	
 				    <div class="form-group pull-left">
 				      <label for="inputfile">Insert Image (must be less than 500KB)</label>
@@ -46,9 +46,11 @@ echo "</script>";
 			    		<input id="hidden_filename" type="hidden" name="filename" value="">
 				    </div>
 				    <button type="submit" class="btn btn-default pull-right">Submit</button>
-			    </div>
+			    
 			  </div>
 		</form>
+		</div>
+		
       </div>
       
 <?php
