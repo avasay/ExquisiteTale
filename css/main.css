@@ -16,6 +16,11 @@ html {
     line-height: 1.4;
 }
 
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+      
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -196,33 +201,43 @@ textarea {
 .et-slide-show {
 	width: 70%; 
 	margin: 0 auto;
+	height:400px;
 }
 
 .et-indicators {
 	width:100%;
 	margin: 0 auto;
-
+	position:relative;
+	top:380px;
 }
 
 /*.et-hero h1, .et-hero h2, .et-hero h3 {*/
 .et-hero {
 	text-align: center;
-	
+	padding: 10px;
+	margin-bottom: 10px;
+	/*font-size: 18px;
+	font-weight: 200;
+	line-height: 30px;
+	color: inherit;*/
+	background-color: beige;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 
 .et-hero-how {
 	width:90%;
 	margin: 0 auto;
-	
-	border-radius:10px;
 	padding:12px;
-	margin-top:40px;
-	color: black ;
-	font-size:medium;
+	margin-top:0px;
+	/*color: black ;
+	font-size:small;
+	border-radius:10px;*/
 }
 
 .et-individual-content-box {
-	margin-top:150px;
+	margin-top:0px;
 	margin-bottom:150px;
 }
 
@@ -231,48 +246,67 @@ textarea {
 	display:block;
 }
 
-.et-slide-title {
-	width: 100%;
+#et-slide-title {
+	width: 98%;
 	margin:0 auto;
 	height:40px;
-	background:#747373;
-	color: #EEEEEE;
+	background:#D6D3D3;
+	
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
 
 .et-slide-contribute {
-	width: 100%;
+	width: 98%;
 	margin:0 auto;
 	height:40px;
-	background:#747373;
-	color: #EEEEEE;
+	background:#D6D3D3;
 	
 }
 
 .et-carousel-container {
+	
 	border:2px solid #747373;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
+#et-carousel-id {
+	margin-bottom: 0px;
+}
 .et-title-list {
-	margin-top: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	border: 1px solid rgb(224, 219, 219);
 	padding: 20px;
 	border-radius: 15px;
 }
 
 .et-title {
-	font-size: 2.0em;
+	font-size: 1.25em;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
+#et-title-row {
+	width: 50%;
+	margin: 0 auto;
+}
 #et-text-previous {
+	background:#E1F1F1;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	
 	padding:30px;
 	height:auto;
+	width:80%;
+	margin-top:20px;
+	margin-bottom: 20px;
+	font-size:1.25em;
 	
 }
 
@@ -280,19 +314,54 @@ textarea {
 	
 }
 
+#et-contribution-text {
+	width:100%;
+	margin:0 auto;
+	margin-top: 0px;
+}
+
+#et-contribution-image {
+	width:100%;
+	margin:0 auto;
+	margin-top: 0px;
+}
+
 #et-image-contribution-box {
 	border:1px dashed gray;
 	height:500px; 
-	width:70%;
+	width:800px;
 	
 	
 }
 
+#et-image-previous img{
+	height: 400px;
+	width: auto;
+	
+}
 .tools { margin-bottom: 10px; }
       .tools a {
         border: 1px solid black; height: 30px; line-height: 30px; padding: 0 10px; vertical-align: middle; text-align: center; text-decoration: none; display: inline-block; color: black; font-weight: bold;
       }
-      
+
+.et-slide-frame {
+	height:400px;
+	width:100%;
+	margin:0 auto;
+	padding-top: 40px;
+	font-size:1.5em;
+	
+}  
+
+.et-slide-frame img {
+	height: 350px;
+	width: auto;
+	margin: 0 auto;
+}
+
+#et-create-new {
+	margin-top: 0px;
+}
 /*#myCanvas {
 	width:100;
 	height:100;
